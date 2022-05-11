@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5rem;
+  }
+
+  &_media {
+    font-size: 25px;
+
+    .icon {
+      &_link {
+        color: var(--primary--dark);
+
+        &:hover {
+          color: var(--primary--ligth);
+        }
+      }
+    }
+  }
+}
