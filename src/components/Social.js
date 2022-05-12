@@ -7,7 +7,7 @@ const Social = (props) => {
         <li className="social_media">
           <a
             className="icon"
-            href="https://github.com/"
+            href="https://github.com/gloriarodrife"
             target={props.target}
             rel="noopener noreferrer"
           >
