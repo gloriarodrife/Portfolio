@@ -47,15 +47,22 @@
           font-weight: 400;
           color: var(--primary--dark);
           margin-bottom: 1.5rem;
+
+          @media all and (min-width: 680px) {
+            text-align: left;
+          }
         }
 
         &_description {
           font-size: 1.3rem;
           max-width: 500px;
           color: var(--color-text);
-
           p {
             margin: 1rem 0;
+
+            @media all and (min-width: 680px) {
+              text-align: left;
+            }
           }
         }
       }
