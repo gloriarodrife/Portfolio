@@ -15,10 +15,11 @@
 
     .icon {
       &_link {
-        color: var(--primary--dark);
-
+        fill: var(--primary--dark);
+        width: 25px;
+        height: 25px;
         &:hover {
-          color: var(--primary--ligth);
+          fill: var(--primary--ligth);
         }
       }
     }

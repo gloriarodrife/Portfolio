@@ -1,5 +1,9 @@
 import '../styles/social.scss';
 
+import { ReactComponent as TwitterIcon } from '@fortawesome/fontawesome-free/svgs/brands/twitter.svg';
+import { ReactComponent as GitHubIcon } from '@fortawesome/fontawesome-free/svgs/brands/github.svg';
+import { ReactComponent as LinkedinIcon } from '@fortawesome/fontawesome-free/svgs/brands/linkedin.svg';
+import { ReactComponent as EnvelopeIcon } from '@fortawesome/fontawesome-free/svgs/solid/envelope.svg';
 const Social = (props) => {
   return (
     <section className="social">
@@ -11,7 +15,7 @@ const Social = (props) => {
             target={props.target}
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-github icon_link"></i>
+            <GitHubIcon className="icon_link" />
           </a>
         </li>
         <li className="social_media">
@@ -21,7 +25,7 @@ const Social = (props) => {
             target={props.target}
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-linkedin icon_link"></i>
+            <LinkedinIcon className="icon_link" />
           </a>
         </li>
         <li className="social_media">
@@ -31,7 +35,7 @@ const Social = (props) => {
             target={props.target}
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-twitter icon_link"></i>
+            <TwitterIcon className="icon_link" />
           </a>
         </li>
         <li className="social_media">
@@ -41,7 +45,7 @@ const Social = (props) => {
             target={props.target}
             rel="noopener noreferrer"
           >
-            <i className="fa-solid fa-envelope icon_link"></i>
+            <EnvelopeIcon className="icon_link" />
           </a>
         </li>
       </ul>
