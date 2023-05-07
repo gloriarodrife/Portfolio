@@ -11,14 +11,11 @@ const Main = () => {
         <Social />
       </section>
       <section className="section_about">
-        <h1 className="about_title">About me</h1>
         <section className="about_description">
-          <p>Galician animal lover.</p>
-          <p>
-            Coming from the customer service world, I decided to start a new
-            path in technology through web programming. I started with online
-            courses until I trained as a frontend developer at Adalab.
-          </p>
+          <p>👩🏽‍💻 Frontend Developer</p>
+          <p>🌱 Never stop learning</p>
+          <p>🐶 Animal lover</p>
+          <p>🏃🏽‍♀️ Sports</p>
         </section>
       </section>
     </main>
