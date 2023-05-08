@@ -9,7 +9,6 @@
             <a
               class="icon"
               href="https://github.com/gloriarodrife"
-              target="{props.target}"
               rel="noopener noreferrer"
             >
               <GitHubIcon class="icon_link" />
@@ -19,7 +18,6 @@
             <a
               class="icon"
               href="https://www.linkedin.com/in/gloriarodrife/"
-              target="{props.target}"
               rel="noopener noreferrer"
             >
               <LinkedinIcon class="icon_link" />
@@ -29,7 +27,6 @@
             <a
               class="icon"
               href="https://twitter.com/gloriarodrife"
-              target="{props.target}"
               rel="noopener noreferrer"
             >
               <TwitterIcon class="icon_link" />
@@ -39,7 +36,6 @@
             <a
               class="icon"
               href="mailto:gloria@gloriarodrife.com"
-              target="{props.target}"
               rel="noopener noreferrer"
             >
               <EnvelopeIcon class="icon_link" />
